@@ -1,5 +1,5 @@
 # ThingLogix
-### AWS Lambda function for serverless Slack bot
+### AWS Lambda function for serverless Joke Slack bot
 
 ## Installation guide
 Clone this repository, then zip all of the contents. Upload the zip file to AWS Lambda as a Lambda function with runtime Python 3.6. The handler should be joke_slackbot.lambda_handler. Set an environment variable called "BOT_TOKEN" with the bot token provided by Slack.
